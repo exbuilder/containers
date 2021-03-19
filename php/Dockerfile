@@ -1,9 +1,8 @@
 FROM php:7.4-fpm-alpine
 
 
-ADD ./docker/php/www.conf /usr/local/etc/php-fpm.d/www.conf
+ADD ./www.conf /usr/local/etc/php-fpm.d/www.conf
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
-
 
 RUN addgroup -g 1000 exbuilder && adduser -G exbuilder -g exbuilder -s /bin/sh -D exbuilder
 
