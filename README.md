@@ -1,6 +1,6 @@
 # exbuilder's docker images
 
-exbuilder takes a slow appraoch to building docker images. New images are only built when someone wants or needs one. If you want us to build a new container, you can request one by creating an issue or making a pull request.
+This repository holds exbuilder's docker images. exbuilder takes a slow appraoch to building docker images for now: new images are only built when someone wants or needs one. If you want us to build a new container (e.g. with a particular R or Python version), you can request one by creating an issue or making a pull request.
 
 ## exbuilder/nginx
 
@@ -12,11 +12,11 @@ exbuilder's php image is an expansion of the [php](https://hub.docker.com/_/php)
 
 ## exbuilder/rstudio
 
-exbuilder's RStudio image is an expansion of the [rocker/verse](https://hub.docker.com/r/rocker/verse) container. It adds a library for working with exbuilder's postgres database and the following packages:  infotheo, lme4, RpostgreSQL, getPass, gridExtra. 
+exbuilder's RStudio image is an expansion of the [rocker/verse](https://hub.docker.com/r/rocker/verse) container. It adds a library for working with exbuilder's postgres database and the following r packages:  infotheo, lme4, RpostgreSQL, getPass, gridExtra. 
 
-## exbuilder/jupyterlab
+## exbuilder/jupyter
 
-exbuilder's Jupyter Lab image is an expansion of the [jupyter/datascience-notebook](https://hub.docker.com/r/jupyter/datascience-notebook) container. It adds a library for working with exbuilder's postgres database and the following packages: infotheo, lme4, RpostgreSQL, getPass, gridExtra, stringdist
+exbuilder's jupyter image is an expansion of the [jupyter/datascience-notebook](https://hub.docker.com/r/jupyter/datascience-notebook) container. It adds a library for working with exbuilder's postgres database and the following r packages: infotheo, lme4, RpostgreSQL, getPass, gridExtra, stringdist
 
 ### cite
 
