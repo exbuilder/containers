@@ -1,6 +1,6 @@
 # exbuilder's docker images
 
-This repository holds exbuilder's docker images. exbuilder takes a slow appraoch to building docker images for now: new images are only built when someone wants or needs one. If you want us to build a new container (e.g. with a particular R or Python version), you can request one by creating an issue or making a pull request.
+This repository holds [exbuilder](exbuilder.org)'s docker images. exbuilder takes a slow appraoch to building docker images for now: new images are only built when someone wants or needs one. If you want us to build a new container (e.g. with a particular R or Python version), you can request one by creating an issue or making a pull request.
 
 ## exbuilder/nginx
 
