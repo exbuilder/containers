@@ -1,5 +1,7 @@
 FROM nginx:stable-alpine
 
+LABEL maintainer="Katie Schuler <kathryn.schuler@gmail.com>"
+
 ADD ./nginx.conf /etc/nginx/nginx.conf
 ADD ./default.conf /etc/nginx/conf.d/default.conf
 
