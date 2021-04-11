@@ -20,4 +20,5 @@ RUN install2.r --error \
     lme4 \
     RPostgreSQL \
     getPass \
-    gridExtra 
+    gridExtra \
+    tidyjson
